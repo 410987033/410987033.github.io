@@ -1,0 +1,79 @@
+<html>
+<head>
+  <style>
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: disc;}
+ul.c {list-style-type: square;}
+ol.d {list-style-type: armenian;}
+ol.e {list-style-type: cjk-ideographic;}
+ol.f {list-style-type: decimal;}
+ol.g {list-style-type: hiragana;}
+
+
+ul {
+  list-style: none; /* Remove HTML bullets */
+  padding: 0;
+  margin: 0;
+}
+
+li { 
+  padding-left: 16px; 
+}
+
+li::before {
+  content: "•"; /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: blue; /* Or a color you prefer */
+}
+
+  </style>
+</head>
+<body>
+    <h1>The list-style-type Property</h1>
+    <ul class="a">
+      <li>circle type</li>
+      <li>coca cola</li>
+    </ul>
+    <ul class="b">
+      <li>disk type</li>
+      <li>tea</li>
+      <li>coca cola</li>
+    </ul>
+    <ul class="c">
+      <li>square type</li>
+      <li>tea</li>
+      <li>coca cola</li>
+    </ul>
+    <ol class="d">
+      <li>American type</li>
+      <li>tea</li>
+      <li>coca cola</li>
+    </ol>
+    <ol class="e">
+      <li>Cjk-ideographic type type</li>
+      <li>tea</li>
+      <li>coca cola</li>
+    </ol>
+    <ol class="f">
+      <li>Decimal type</li>
+      <li>tea</li>
+      <li>coca cola</li>
+    </ol>
+    <ol class="g">
+      <li>Hiragana type type</li>
+      <li>tea</li>
+      <li>coca cola</li>
+    </ol>
+    <hr>
+    
+    <h1>The content property</h1>
+    <ul>
+
+      <li>tea</li>
+      <li>coca cola</li>
+    </ul>
+    
+    
+</body>
+
+</html>
