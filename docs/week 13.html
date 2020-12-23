@@ -1,7 +1,7 @@
 <html><head>
 <style>
 	body {
-  background-color: rgb(255, 183, 0);
+  background-color: rgb(0, 204, 255);
 }
 ul.a {list-style-type: circle;}
 ul.b {list-style-type: disc;}
@@ -248,7 +248,6 @@ table, td, th {
 <br>
 <hr>
 <h1>Styling Lists With Colors:</h1>
-
 <al>
   <li>Coffee</li>
   <li>Tea</li>
@@ -263,7 +262,6 @@ table, td, th {
 
 <hr>
 <h2>Add a border to a table:</h2>
-
 <table>
   <tbody><tr>
     <th>Firstname</th>
@@ -280,15 +278,9 @@ table, td, th {
   
 </tbody></table>
 <br>
-<p>code : table, th, td {
-  border: 1px solid black;
-}
-
-</p>
 <br>
 <hr>
 <h2>The vertical-align Property</h2>
-<p>This property sets the vertical alignment (like top, bottom, or middle) of the content in th or td.</p>
 <table>
   <tbody><tr>
     <th>Firstname</th>
@@ -337,8 +329,6 @@ td {
 <br>
 <hr>
 <h2>The padding Property</h2>
-<p>This property adds space between the border and the content in a table.</p>
-
 <table>
   <tbody><tr>
     <th>Firstname</th>
@@ -369,10 +359,6 @@ td {
 <br>
 <p>
 <br>
-code : table, td, th {  
-  border: 1px solid #ddd;
-  text-align: left;
-}
 <br>
 table {
   border-collapse: collapse;
@@ -414,30 +400,11 @@ th, td {
 </tr>
 </tbody></table>
 
-<p>code : 
-<br>
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-<br>
-th, td {
-  text-align: left;
-  padding: 8px;
-}
-<br>
-tr:nth-child(even){background-color: lightgrey}
-<br>
-th {
-  background-color: #4CAF50;
-  color: white;
-}
-</p>
+
 <br>
 <hr>
 
 <h2>Striped Table</h2>
-<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
 
 <table>
   <tbody><tr>
@@ -466,24 +433,9 @@ th {
   <td>$250</td>
   </tr>
 </tbody></table>
-<p>code : 
-<br>table {
-  border-collapse: collapse;
-  width: 100%;
-}
-<br>
-th, td {
-  text-align: left;
-  padding: 8px;
-}<br>
-tr:nth-child(odd) {background-color: lightgreen;}
-tr:nth-child(even) {background-color: green;}
-</p>
 <br>
 <hr>
 <h2>Hoverable Table</h2>
-<p>Move the mouse over the table rows to see the effect.</p>
-
 <table>
   <tbody><tr>
     <th>First Name</th>
@@ -511,10 +463,6 @@ tr:nth-child(even) {background-color: green;}
     <td>$250</td>
   </tr>
 </tbody></table>
-<p>table {
-  border-collapse: collapse;
-  width: 100%;
-}
 <br>
 th, td {
   padding: 8px;
